@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Mitr', sans-serif;
+    padding: 0px;
+    background: white;
+  
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 0px;
+    text-align: center;
+    background: white;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-right: 70px;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+  
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;   
+    padding: 0;
+    align-content: center;
+  }
+  .form-outline{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: gray;
+  }
+  .button{
+      margin: 10px;
+    border-radius: 10px;
+    padding-top: 0;
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgba(241, 240, 240, 0.898);
+    color: black;
+  }
+
+  /* Fake image */
+  .fakeimg {
+      background-image: url(https://via.placeholder.com/500x500);
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+    border-radius:10px 10px 0 0 ;
+  }
+  .fakeimg2 {
+    background-image: url(https://via.placeholder.com/160x100);
+    width: 100%;
+    padding: 25px;
+    padding-top: 40px;
+    font-size: 28px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    
+  }
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  .row{
+      padding-left: 15%;
+      padding-right: 15%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: left;
+    margin-top: 10%;
+  
+  }
+ 
+  
+  .container{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 1399px;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .mySlides {display:none; border:3px solid black ; border-radius:10px;}
+  .w3-left, .w3-right, .w3-badge {cursor:pointer ;}
+  .w3-badge {height:13px; width:13px; padding:0}
+  
+  .content-slide{
+  
+      border-radius:10px
+  }
+  
+  
+  .img-services{
+  margin: 10px;
+  border-radius: 10px;
+  }
+  .box{
+      
+      background-color: rgba(251, 251, 251, 0.809);
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      width: 20em;
+      border-radius:10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .content-sugges,.content-newthing, .content-npa{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+  }
+  
+  .img-sugges-size{
+    height:200px; text-align: right;
+
+
+  }
+  .box-size{
+      height:255px; 
+      width: 240px;
+      margin-top: 10px;
+  }
+  .box-size-newthing{
+  
+      height:400px; 
+      width: 500px;
+      margin-top: 10px;
+      margin:10px
+  
+  }
+  .box-img-size-npa{
+      height:200px; width: 240px; align-content: center;
+      
+    }
+  .size-img-bank{
+    border-radius: 50%; border: 3px solid tomato; 
+  }
+  .column-newthing, .column-footer {
+    float: left;
+    width: 50%;
+    padding: 0 0 0 0;
+    margin: 0;
+  }
+  
+   
+  .row-newthing, .row-footer {
+  padding: 0%;
+  font-size: 20px;
+  border-radius:10px;
+  
+  }
+  i{
+      font-size: 30px;
+      margin-top: 0;
+  }
+  a{
+    text-decoration:none;
+}
+p{
+    padding:10px;
+    margin: 0%;
+    border: none;
+    font-weight: bold;
+}
+h1, h3{
+    font-weight: bold;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ads-left, .ads-right{
+    position: fixed;
+    width: 200px;
+    height: 500px;
+    margin-bottom: 100%;
+    border: 3px solid #464744;
+    background-color: #464744ef;
+    text-align: center;
+    font-size: 60px;
+  }
+.ads-left {
+   top: 160px; left: 0;
+  }
+  .ads-right {
+    top: 160px; right: 0;
+    
+  }
+  .ads-buttom {
+    position: fixed;
+    left: 20%;
+    bottom: 0;
+    font-size: 18px;
+    width: 900px;
+    height: 150px;
+    border: 3px solid #464744;
+    background-color: #464744ef;
+    text-align: center;
+    font-size: 60px;
+  }
+  .ads-button{
+
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 0;
+    margin: 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 90%
+  }
+  .ads-buttonL{
+    position:fixed;
+    align-content: left; 
+    color: #d51313; 
+  }
+  .ads-buttonR { 
+    position:fixed;
+    right: 160px;
+    color: #d51313; 
+}
+.ads-buttonB{
+    position:fixed;
+    align-content: top;
+    right: 320px;
+    color: #d51313; 
+
+}
+
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
